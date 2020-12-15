@@ -6,8 +6,8 @@ const User = require('../model/signin');
 const router = express.Router();
 const bcrypt = require('bcrypt');
 
-router.use(express.json());
-router.use(express.urlencoded({ extended: true }));
+// router.use(express.json());
+// router.use(express.urlencoded({ extended: true }));
 
 // Signup route -- create a new user
 router.post('/signup', async (req, res) => {

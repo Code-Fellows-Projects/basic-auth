@@ -1,7 +1,7 @@
 'use strict';
 
 // 3rd part libraries
-require('dotenv').config();
+//require('dotenv').config();
 const express = require('express');
 const app = express();
 
@@ -23,7 +23,7 @@ app.use(signUpRoute);
 module.exports = {
   server: app,
   start: port => {
-    if (!port) { throw new Error('missing port!'); }
+    if (!port) { throw new Error('lost port!'); }
     app.listen(port, () => console.log(`Server up ${port}`));
   },
 }
