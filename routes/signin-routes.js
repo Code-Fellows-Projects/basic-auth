@@ -34,6 +34,9 @@ router.post('/signin', async (req, res) => {
   console.log('step 4.', [username, password])
 
   try {
+    // added 12/15/20
+    //req.user = await User.authenticateBasic(username, password);
+
     // 1. find the user in the database by the username
     const user = await User.findOne({ username });
 
@@ -50,6 +53,10 @@ router.post('/signin', async (req, res) => {
   }
   catch (e) { res.status(403).send('you are not allowed') }
 })
+
+// added 12/15/20
+//} catch (error) {res.status(403).send('Invalid Login'); }
+// next();
 
 module.exports = router;
 
