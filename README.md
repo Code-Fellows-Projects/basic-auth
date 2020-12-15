@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-+ [Pullrequest GitHub]()
++ [Pull request GitHub](https://github.com/stacyburris/basic-auth/pull/7)
 + [ci/cd](https://github.com/stacyburris/basic-auth/actions)
 + [Heroku](https://stacyburris-basic-auth.herokuapp.com/)
 
@@ -21,7 +21,7 @@
 
 + `npm start` or `nodemon`
 
-### Endpoint:
+### Endpoint
 
 In Terminal
 
