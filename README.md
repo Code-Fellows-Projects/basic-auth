@@ -7,15 +7,15 @@
 ### Links and Resources
 
 + [Pullrequest GitHub]()
-+ [ci/cd]()
-+ [Heroku]()
++ [ci/cd](https://github.com/stacyburris/basic-auth/actions)
++ [Heroku](https://stacyburris-basic-auth.herokuapp.com/)
 
 ### Setup
 
 `.env` requirements
 
 + Port - 3000
-+ MONGODB_URI=mongodb://localhost:27017/test
++ MONGOOSE_URI=mongodb://localhost:27017/test
 
 ### How to initialize/run application
 
@@ -36,6 +36,7 @@ http POST :3000/signin -a stacy:cats
 ### Tests
 
 + Tests run through jest in the terminal
+  + `npm test`
 
 ### UML
 
