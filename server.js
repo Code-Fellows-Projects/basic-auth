@@ -39,16 +39,3 @@ module.exports = {
 
 
 
-
-
-// const userRoutes = require('./routes/user')
-// const logger = require('./middleware/logger');
-// const cors = require('cors');
-
-// // Prepare the express app
-// const app = express();
-// app.use(cors());
-
-
-// app.use(logger);
-// app.use(userRoutes);
